@@ -636,7 +636,6 @@ class Knight {
                 col: this.knightPosition.col + move.col
             });
         });
-        console.log("knightNextMoves", knightNextMoves);
         return knightNextMoves;
     }
     playSound() {
@@ -682,7 +681,6 @@ parcelHelpers.export(exports, "Util", ()=>Util);
 class Util {
     static removeElement(element) {
         const parentElement = element.parentElement;
-        console.log("parentElement", parentElement);
         parentElement?.removeChild(element);
     }
 }

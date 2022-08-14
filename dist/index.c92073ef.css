@@ -1,0 +1,56 @@
+body {
+  background-color: #212020;
+}
+
+#app {
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.chess-board {
+  height: auto;
+  width: auto;
+  border: 1px solid #000;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+}
+
+.chess-cell {
+  height: 11.25vh;
+  width: 11.25vh;
+  border-collapse: collapse;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.chess-cell.black {
+  background: #000;
+}
+
+.chess-cell:hover {
+  background-color: #97e5f3 !important;
+}
+
+.chess-cell.white {
+  background: #fff;
+}
+
+.chess-cell.selected {
+  background-size: cover;
+  background-color: #79ccdb !important;
+  background-image: url("knight.301bd442.png") !important;
+}
+
+.chess-cell.next-move {
+  background-color: #bd0707;
+  background-image: url("attack.5e37c1aa.png");
+  background-size: 50%;
+}
+
+.sound {
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=index.c92073ef.css.map */

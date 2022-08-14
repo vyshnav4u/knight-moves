@@ -56,8 +56,6 @@ export class Knight {
         });
       }
     });
-    console.log('knightNextMoves', knightNextMoves);
-
     return knightNextMoves;
   }
 

@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(33, 32, 32);
+}
+
+#app {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.chess-board {
+  height: auto;
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  border: 1px solid #000;
+}
+
+.chess-cell {
+  height: calc(90vh / 8);
+  width: calc(90vh / 8);
+  border: 1px solid #000;
+  border-collapse: collapse;
+  cursor: pointer;
+}
+
+.chess-cell.black {
+  background: #000;
+}
+
+.chess-cell:hover {
+  background-color: #97e5f3 !important;
+}
+.chess-cell.white {
+  background: #fff;
+}
+
+.chess-cell.selected {
+  background-image: url('../assets/knight.png') !important;
+  background-size: cover;
+  background-color: #79ccdb !important;
+}
+
+.chess-cell.next-move {
+  background-image: url('../assets/attack.png');
+  /* background-size: cover; */
+  background-size: 50%;
+  background-color: rgb(189, 7, 7);
+}
+
+.sound {
+  visibility: hidden;
+}

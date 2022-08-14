@@ -40,12 +40,12 @@ body {
 .chess-cell.selected {
   background-size: cover;
   background-color: #79ccdb !important;
-  background-image: url("knight.301bd442.png") !important;
+  background-image: url("knight.0cb05f16.png") !important;
 }
 
 .chess-cell.next-move {
   background-color: #bd0707;
-  background-image: url("attack.5e37c1aa.png");
+  background-image: url("attack.745188d2.png");
   background-size: 50%;
 }
 
@@ -53,4 +53,4 @@ body {
   visibility: hidden;
 }
 
-/*# sourceMappingURL=index.c92073ef.css.map */
+/*# sourceMappingURL=index.aa612c11.css.map */

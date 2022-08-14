@@ -142,14 +142,14 @@
       this[globalName] = mainExports;
     }
   }
-})({"23Ygn":[function(require,module,exports) {
+})({"dsxwS":[function(require,module,exports) {
 "use strict";
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "2466ce0ee6f7754f";
+module.bundle.HMR_BUNDLE_ID = "59d1be459d14e10e";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, globalThis, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
   HMRAsset,
@@ -585,37 +585,7 @@ class Board {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"3yEkh","./Knight":"ghOa4","./Util":"f5ir1"}],"3yEkh":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"ghOa4":[function(require,module,exports) {
+},{"./Knight":"ghOa4","./Util":"f5ir1","@parcel/transformer-js/src/esmodule-helpers.js":"3yEkh"}],"ghOa4":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Knight", ()=>Knight);
@@ -675,7 +645,37 @@ class Knight {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"3yEkh"}],"f5ir1":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"3yEkh"}],"3yEkh":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"f5ir1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Util", ()=>Util);
@@ -687,6 +687,6 @@ class Util {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"3yEkh"}]},["23Ygn","lyqAI"], "lyqAI", "parcelRequirebec3")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"3yEkh"}]},["dsxwS","lyqAI"], "lyqAI", "parcelRequirebec3")
 
-//# sourceMappingURL=index.e6f7754f.js.map
+//# sourceMappingURL=index.9d14e10e.js.map
